@@ -9,8 +9,10 @@ Bellman-Ford 法<br>
 
 ## 使い方
 ```
-bellman_ford(edges, V, s);
+vector<ll>dist = bellman_ford(edges, V, s);
 ```
 edges : 辺集合（**必要なのはグラフではなく辺の配列であることに注意**）<br>
 V : 頂点数<br>
-s : 始点
+s : 始点<br>
+<br>
+返り値：始点 s から各頂点への最短距離を持つ長さ V の配列を返す

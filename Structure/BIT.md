@@ -1,4 +1,5 @@
 # BIT (Binary Indexed Tree)
+[実装](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/BIT.cpp)
 
 ## なにこれ
 BIT です<br>

@@ -16,5 +16,5 @@ struct Graph {
     vector<Edge> &operator[](const int &k) {
         return G[k];
     }
-};l
+};
 using Edges = vector<Edge>;

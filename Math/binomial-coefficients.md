@@ -1,4 +1,5 @@
 # 二項係数
+[実装](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/binomial-coefficients.cpp)
 
 ## なにこれ
 二項係数 $\dbinom{n}{k}\mod p$<br>

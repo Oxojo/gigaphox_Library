@@ -5,8 +5,8 @@
 最小全域木を、辺に注目して構築する。計算量は $O(E \log E)$ だった記憶がある
 
 ## 必要なライブラリ
-[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.cpp)
-[UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.cpp)
+[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph)
+[UnionFind](https://oxojo.github.io/Oxojo-Library/Structure/unionfind)
 
 ## つかいかた
 ```

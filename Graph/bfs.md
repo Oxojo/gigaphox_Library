@@ -6,7 +6,7 @@ BFS<br>
 計算量は $O(V + E)$ だと思います
 
 ## 必要なライブラリ
-[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.cpp)
+[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph)
 
 ## 使い方
 ```

@@ -1,6 +1,6 @@
 void dijkstra(const Graph &G, ll s, vector<long long>& dis) {
     int N = G.size();
-    dis.resize(N, INF);
+    dis.assign(N, INF);
     priority_queue<P, vector<P>, greater<P>> pq;
     dis[s] = 0;
     pq.emplace(dis[s], s);

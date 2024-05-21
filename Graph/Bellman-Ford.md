@@ -6,7 +6,7 @@ Bellman-Ford 法<br>
 負の辺を含むグラフ上でも動く、単一始点最短経路問題を解くアルゴリズム。計算量は $O(EV)$ 
 
 ## 必要なライブラリ
-[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.cpp)
+[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph)
 
 ## 使い方
 ```

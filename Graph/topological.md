@@ -5,7 +5,7 @@
 DAG について、ある頂点の子が全て自身より後に来るように頂点を並べる
 
 ## 必要なライブラリ
-[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.cpp)
+[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph)
 
 ## 使い方
 ```

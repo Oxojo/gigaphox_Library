@@ -17,8 +17,8 @@ typedef long double ld;
 const ll INF = 1e16;
 const ll mod1 = 1000000007;
 const ll mod2 = 998244353;
-int dx[4] = {-1, 0, 1, 0};
-int dy[4] = {0, -1, 0, 1};
+ll dx[4] = {-1, 0, 1, 0};
+ll dy[4] = {0, -1, 0, 1};
 ```
 
 ## 目次

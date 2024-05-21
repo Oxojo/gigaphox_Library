@@ -6,15 +6,15 @@ Verify ができているものはここの目次にチェックを入れるつ�
 
 ## 目次
 あったほうがいいかなって...
-### [Graph](https://github.com/Oxojo/Oxojo-Library/tree/main/Graph)
+### Graph
 グラフに関するライブラリです。
 
-- [Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.md) : グラフの構造体
-- [BFS](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/bfs.md) : 幅優先探索
-- [Bellman-Ford](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Bellman-Ford.md) : ベルマンフォード法
-- [Topological Sort](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/topological.md) : トポロジカルソート
+- [Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph) : グラフの構造体
+- [BFS](https://oxojo.github.io/Oxojo-Library/Graph/bfs) : 幅優先探索
+- [Bellman-Ford](https://oxojo.github.io/Oxojo-Library/Graph/Bellman-Ford) : ベルマンフォード法
+- [Topological Sort](https://oxojo.github.io/Oxojo-Library/Graph/topological.md) : トポロジカルソート
 
-### [Math](https://github.com/Oxojo/Oxojo-Library/tree/main/Math)
+### Math
 数学系のライブラリです。幾何はここには含まれていません。
 
 - [Euler_phi](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/Euler_phi.md) : オイラーの $phi$ 関数
@@ -25,7 +25,7 @@ Verify ができているものはここの目次にチェックを入れるつ�
 - [binomial coefficients](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/binomial-coefficients.md) : 二項係数
 - [power](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/power.md) : べき乗
 
-### [Structure](https://github.com/Oxojo/Oxojo-Library/tree/main/Structure)
+### Structure
 構造体のライブラリです。
 
 - [UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.md) : UnionFind

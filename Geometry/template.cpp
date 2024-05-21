@@ -2,18 +2,18 @@
 #define equals(a, b) (fabs((a) - (b)) < EPS)
 class Point {
 public:
-    double x;
-    double y;
+    ld x;
+    ld y;
 
-    Point(double _x = 0, double _y = 0) : x(_x), y(_y) {}
+    Point(ld _x = 0, ld _y = 0) : x(_x), y(_y) {}
 
     Point operator+(Point p) { return Point(x + p.x, y + p.y); }
     Point operator-(Point p) { return Point(x - p.x, y - p.y); }
-    Point operator*(double a) { return Point(a * x, a * y); }
-    Point operator/(double a) { return Point(x / a, y / a); }
+    Point operator*(ld a) { return Point(a * x, a * y); }
+    Point operator/(ld a) { return Point(x / a, y / a); }
 
-    double abs() { return sqrt(norm()); }
-    double norm() { return x * x + y * y; }
+    ld abs() { return sqrt(norm()); }
+    ld norm() { return x * x + y * y; }
 
     bool operator<(const Point& p) const {
         return !equals(x, p.x) ? x < p.x : y < p.y;
@@ -31,7 +31,7 @@ typedef Segment Line;
 class Circle {
 public:
     Point C;
-    double r;
-    Circle(Point C = Point(), double r = 0.0) : C(C), r(r) {}
+    ld r;
+    Circle(Point C = Point(), ld r = 0.0) : C(C), r(r) {}
 };
 typedef vector<Point> Polygon;

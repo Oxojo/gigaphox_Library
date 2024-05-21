@@ -2,10 +2,10 @@
 [実装](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/dijkstra.cpp)
 
 ## なにこれ
-ダイクストラ法は、非負の重み付きグラフに対し、単一始点最短経路問題を $O(E log V)$ で解く。
+ダイクストラ法は、非負の重み付きグラフに対し、単一始点最短経路問題を $O(E \log V)$ で解く。
 
 ## 必要なライブラリ
-[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.cpp)
+[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph)
 
 ## 使い方
 ```

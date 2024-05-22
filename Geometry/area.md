@@ -1,5 +1,4 @@
 # 面積
-[実装](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/area.cpp)
 
 ## なにこれ
 多角形の面積を求めます　凸多角形でない場合、バグるかもしれないです
@@ -12,3 +11,21 @@
 s = Area(S);
 ```
 引数は Polygon 型
+
+## 実装
+[area.cpp](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/area.cpp)
+```cpp
+ld Area(Polygon S) {
+    if (S.size() < 3) return 0;
+    ld ans = 0;
+    Point O = S[0];
+    for (ll i = 1; i + 1 < S.size(); i++) {
+        Point A = S[i], B = S[i+1];
+        Vector C = A-O;
+        Vector D = B-O;
+        ld area = cross(C, D) * 0.5;
+        ans += area;
+    }
+    return ans;
+}
+```

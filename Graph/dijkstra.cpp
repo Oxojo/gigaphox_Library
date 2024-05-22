@@ -1,11 +1,11 @@
 void dijkstra(const Graph &G, ll s, vector<long long>& dis) {
     int N = G.size();
     dis.assign(N, INF);
-    priority_queue<P, vector<P>, greater<P>> pq;
+    priority_queue<pair<ll, ll>, vector<pair<ll, ll>>, greater<pair<ll, ll>>> pq;
     dis[s] = 0;
     pq.emplace(dis[s], s);
     while (!pq.empty()) {
-        P p = pq.top(); pq.pop();
+        pair<ll, ll> p = pq.top(); pq.pop();
         int v = p.second;
         if (dis[v] < p.first) {
             continue;

@@ -3,7 +3,7 @@ struct MST {
     Edges edges;
 };
 MST Kruskal(Edges &edges, ll V) {
-    sort(edges.begin(),edges.end(), [](Edge<T>&a, Edge<T>&b) {
+    sort(edges.begin(),edges.end(), [](Edge &a, Edge &b) {
         return a.cost < b.cost;
     });
     UnionFind uf(V);

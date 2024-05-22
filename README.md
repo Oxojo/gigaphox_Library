@@ -52,4 +52,4 @@ ll dy[4] = {0, -1, 0, 1};
 構造体のライブラリです。
 
 - [BIT](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/BIT.md) : BIT
-- [UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.md) : UnionFind
+- ✅[UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.md) : UnionFind

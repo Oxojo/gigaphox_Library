@@ -27,7 +27,7 @@ ll dy[4] = {0, -1, 0, 1};
 グラフに関するライブラリです。
 
 - [Bellman-Ford](https://oxojo.github.io/Oxojo-Library/Graph/Bellman-Ford) : ベルマンフォード法
-- [Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph) : グラフの構造体
+- ✅[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph) : グラフの構造体
 - [Kruskal](https://oxojo.github.io/Oxojo-Library/Graph/Kruskal) : クラスカル法
 - [Prim](https://oxojo.github.io/Oxojo-Library/Graph/Prim) : プリム法
 - [BFS](https://oxojo.github.io/Oxojo-Library/Graph/bfs) : 幅優先探索

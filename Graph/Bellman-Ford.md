@@ -1,11 +1,11 @@
-# Bellman-Ford 法
+# ✅Bellman-Ford 法
 
 ## なにこれ
 Bellman-Ford 法<br>
 負の辺を含むグラフ上でも動く、単一始点最短経路問題を解くアルゴリズム。計算量は $O(EV)$ 
 
 ## 必要なライブラリ
-[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph)
+[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.md)
 
 ## 使い方
 ```
@@ -18,6 +18,7 @@ s : 始点<br>
 返り値：始点 s から各頂点への最短距離を持つ長さ V の配列を返す
 
 ## 実装
+[Bellman-Ford.cpp](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Bellman-Ford.cpp)
 ```cpp
 vector<ll> bellman_ford(Edges &edges, ll V, ll s) {
     vector<ll> dist(V, INF);

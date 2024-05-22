@@ -1,4 +1,4 @@
-# UnionFind
+# ✅UnionFind
 
 ## なにこれ
 UnionFind は、頂点の連結状態を管理するつよそうなデータ構造。

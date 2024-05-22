@@ -26,13 +26,13 @@ ll dy[4] = {0, -1, 0, 1};
 ### Graph
 グラフに関するライブラリです。
 
-- [Bellman-Ford](https://oxojo.github.io/Oxojo-Library/Graph/Bellman-Ford) : ベルマンフォード法
+- ✅[Bellman-Ford](https://oxojo.github.io/Oxojo-Library/Graph/Bellman-Ford) : ベルマンフォード法
 - ✅[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph) : グラフの構造体
 - [Kruskal](https://oxojo.github.io/Oxojo-Library/Graph/Kruskal) : クラスカル法
 - [Prim](https://oxojo.github.io/Oxojo-Library/Graph/Prim) : プリム法
 - [BFS](https://oxojo.github.io/Oxojo-Library/Graph/bfs) : 幅優先探索
 - [DFS](https://oxojo.github.io/Oxojo-Library/Graph/dfs) : 深さ優先探索
-- [Dijkstra](https://oxojo.github.io/Oxojo-Library/Graph/dijkstra) : ダイクストラ法
+- ✅[Dijkstra](https://oxojo.github.io/Oxojo-Library/Graph/dijkstra) : ダイクストラ法
 - [LCA](https://oxojo.github.io/Oxojo-Library/Graph/lca) : 最小共通祖先
 - [Topological Sort](https://oxojo.github.io/Oxojo-Library/Graph/topological) : トポロジカルソート
 

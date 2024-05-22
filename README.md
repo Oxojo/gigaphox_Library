@@ -26,30 +26,30 @@ ll dy[4] = {0, -1, 0, 1};
 ### Graph
 グラフに関するライブラリです。
 
-- ✅[Bellman-Ford](https://oxojo.github.io/Oxojo-Library/Graph/Bellman-Ford) : ベルマンフォード法
-- ✅[Graph](https://oxojo.github.io/Oxojo-Library/Graph/Graph) : グラフの構造体
-- [Kruskal](https://oxojo.github.io/Oxojo-Library/Graph/Kruskal) : クラスカル法
-- [Prim](https://oxojo.github.io/Oxojo-Library/Graph/Prim) : プリム法
-- [BFS](https://oxojo.github.io/Oxojo-Library/Graph/bfs) : 幅優先探索
-- [DFS](https://oxojo.github.io/Oxojo-Library/Graph/dfs) : 深さ優先探索
-- ✅[Dijkstra](https://oxojo.github.io/Oxojo-Library/Graph/dijkstra) : ダイクストラ法
-- [LCA](https://oxojo.github.io/Oxojo-Library/Graph/lca) : 最小共通祖先
-- [Topological Sort](https://oxojo.github.io/Oxojo-Library/Graph/topological) : トポロジカルソート
+- ✅[Bellman-Ford](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Bellman-Ford.md) : ベルマンフォード法
+- ✅[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.md) : グラフの構造体
+- ✅[Kruskal](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Kruskal.md) : クラスカル法
+- ✅[Prim](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Prim.md) : プリム法
+- [BFS](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/bfs.md) : 幅優先探索
+- [DFS](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/dfs.md) : 深さ優先探索
+- ✅[Dijkstra](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/dijkstra.md) : ダイクストラ法
+- [LCA](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/lca.md) : 最小共通祖先
+- [Topological Sort](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/topological.md) : トポロジカルソート
 
 ### Math
 数学系のライブラリです。幾何はここには含まれていません。
 
-- [Eratosthenes](https://oxojo.github.io/Oxojo-Library/Math/Eratosthenes) : エラトステネスの篩
-- [Euler_phi](https://oxojo.github.io/Oxojo-Library/Math/Euler_phi) : オイラーの $phi$ 関数
-- [binomial coefficients](https://oxojo.github.io/Oxojo-Library/Math/binomial-coefficients) : 二項係数
-- [extgcd](https://oxojo.github.io/Oxojo-Library/Math/extgcd) : 拡張ユークリッド互除法
-- [invmod](https://oxojo.github.io/Oxojo-Library/Math/invmod) : 逆元
-- [isprime](https://oxojo.github.io/Oxojo-Library/Math/isprime) : 素数判定
-- [power](https://oxojo.github.io/Oxojo-Library/Math/power) : べき乗
-- [prime factorization](https://oxojo.github.io/Oxojo-Library/Math/prime-factorization) : 素因数分解
+- [Eratosthenes](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/Eratosthenes.md) : エラトステネスの篩
+- [Euler_phi](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/Euler_phi.md) : オイラーの $phi$ 関数
+- [binomial coefficients](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/binomial-coefficients.md) : 二項係数
+- [extgcd](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/extgcd.md) : 拡張ユークリッド互除法
+- [invmod](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/invmod.md) : 逆元
+- [isprime](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/isprime.md) : 素数判定
+- [power](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/power.md) : べき乗
+- [prime factorization](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/prime-factorization.md) : 素因数分解
 
 ### Structure
 構造体のライブラリです。
 
-- [BIT](https://oxojo.github.io/Oxojo-Library/Structure/BIT) : BIT
-- [UnionFind](https://oxojo.github.io/Oxojo-Library/Structure/unionfind) : UnionFind
+- [BIT](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/BIT.md) : BIT
+- [UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.md) : UnionFind

@@ -9,7 +9,7 @@ vector<ll> bellman_ford(Edges &edges, ll V, ll s) {
     }
     for (auto e : edges) {
         if (dist[e.from] == INF) continue;
-        if (dist[e.from] + e.cost < dist[e.to]) return vector<T>();
+        if (dist[e.from] + e.cost < dist[e.to]) return vector<ll>();
     }
     return dist;
 }

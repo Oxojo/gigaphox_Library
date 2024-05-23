@@ -54,3 +54,16 @@ bool isOrthogonal(Segment S1, Segment S2) {
     return equals(dot(S1.B - S1.A, S2.B - S2.A), 0.0);
 }
 ```
+
+## Verify
+[AOJ_CGL_2_A](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_2_A)
+```cpp
+void solve() {
+  Point p1, p2, p3, p4;
+  cin >> p1.x >> p1.y >> p2.x >> p2.y >> p3.x >> p3.y >> p4.x >> p4.y;
+  Line s1 = {p1, p2}, s2 = {p3, p4};
+  if (isParallel(s1, s2)) { cout << 2 << endl; }
+  else if (isOrthogonal(s1, s2)) { cout << 1 << endl; }
+  else cout << 0 << endl;
+}
+```

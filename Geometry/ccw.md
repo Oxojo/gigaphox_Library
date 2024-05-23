@@ -36,3 +36,22 @@ int ccw(Point A, Point B, Point C) {
     return ON_SEGMENT;
 }
 ```
+
+## Verify
+[AOJ_CGL_1_C](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_C)
+```cpp
+void solve() {
+	Point p0, p1;
+  cin >> p0.x >> p0.y >> p1.x >> p1.y;
+  ll Q; cin >> Q;
+  while (Q--) {
+    Point p2; cin >> p2.x >> p2.y;
+    int c = ccw(p0, p1, p2);
+    if (c == 1) { cout << "COUNTER_CLOCKWISE" << endl; }
+    else if (c == -1) { cout << "CLOCKWISE" << endl; }
+    else if (c == 2) { cout << "ONLINE_BACK" << endl; }
+    else if (c == -2) { cout << "ONLINE_FRONT" << endl; }
+    else cout << "ON_SEGMENT" << endl;
+  }
+}
+```

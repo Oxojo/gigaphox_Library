@@ -5,6 +5,7 @@
 
 ## 必要なライブラリ
 [template](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/template.md)
+[dot_cross](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/dot_cross.md)
 
 ## 使い方
 ```

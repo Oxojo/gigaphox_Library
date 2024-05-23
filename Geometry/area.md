@@ -1,7 +1,7 @@
 # ✅面積
 
 ## なにこれ
-多角形の面積を求めます　凸多角形でない場合、バグるかもしれないです
+多角形の面積を求めます　~~凸多角形でない場合、バグるかもしれないです~~ ←凸でなくてもバグらないことを確認しました
 
 ## 必要なライブラリ
 [template](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/template.md)

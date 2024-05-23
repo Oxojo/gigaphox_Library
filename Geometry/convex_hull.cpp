@@ -1,3 +1,4 @@
+// ！！！！！！何らかのバグが発生してます！！！！！！
 Polygon convex_hull(Polygon S) {
     Polygon u, l;
     if (S.size() < 3) return S;

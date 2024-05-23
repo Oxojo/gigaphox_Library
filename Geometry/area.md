@@ -4,7 +4,7 @@
 多角形の面積を求めます　~~凸多角形でない場合、バグるかもしれないです~~ ←凸でなくてもバグらないことを確認しました
 
 ## 必要なライブラリ
-[template](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/template.md)
+[template](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/template.md) <br>
 [dot_cross](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/dot_cross.md)
 
 ## 使い方

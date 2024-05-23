@@ -29,3 +29,16 @@ ld Area(Polygon S) {
     return ans;
 }
 ```
+
+### Verify
+[AOJ_CGL_3_A](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_3_A)
+```cpp
+void solve() {
+  ll N; cin >> N;
+  Polygon S(N);
+  for (ll i = 0; i < N; i++) {
+    cin >> S[i].x >> S[i].y;
+  }
+  cout << fixed << setprecision(1) << Area(S) << endl;
+}
+```

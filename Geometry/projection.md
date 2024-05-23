@@ -25,7 +25,7 @@ Point Projection(Segment S, Point p) {
 ```
 
 ## Verify
-AOJ_CGL_1_A
+[AOJ_CGL_1_A](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/1/CGL_1_A)
 ```cpp
 void solve() {
 	Point p1, p2;

@@ -21,7 +21,7 @@ Point Reflection(Segment S, Point p) {
 ```
 
 ## Verify
-AOJ_CGL_1_B
+[AOJ_CGL_1_B](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/1/CGL_1_B)
 ```cpp
 void solve() {
 	Point p1, p2;

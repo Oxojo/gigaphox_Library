@@ -30,7 +30,7 @@ ll dy[4] = {0, -1, 0, 1};
 - ✅[Graph](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Graph.md) : グラフの構造体
 - ✅[Kruskal](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Kruskal.md) : クラスカル法
 - ✅[Prim](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/Prim.md) : プリム法
-- [BFS](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/bfs.md) : 幅優先探索
+- ✅[BFS](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/bfs.md) : 幅優先探索
 - [DFS](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/dfs.md) : 深さ優先探索
 - ✅[Dijkstra](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/dijkstra.md) : ダイクストラ法
 - [LCA](https://github.com/Oxojo/Oxojo-Library/blob/main/Graph/lca.md) : 最小共通祖先
@@ -48,6 +48,18 @@ ll dy[4] = {0, -1, 0, 1};
 - [power](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/power.md) : べき乗
 - [prime factorization](https://github.com/Oxojo/Oxojo-Library/blob/main/Math/prime-factorization.md) : 素因数分解
 
+### Geometry
+計算幾何のライブラリです。
+
+- ✅[Area](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/area.md) : 面積
+- ✅[ccw](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/ccw.md) : ccw
+- ✅[dot-cross](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/dot_cross.md) : 内積・外積
+- ✅[isParallel & isOrthogonal](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/isParallel%20%26%20isOrthogonal.md) : 平行・直交
+- ✅[isconvex](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/isconvex.md) : 凸性判定
+- ✅[isinpolygon](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/isinpolygon.md) : 多角形における点の包含
+- ✅[Projection](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/projection.md) : 射影
+- ✅[Reflection](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/reflection.md) : 反射
+- ✅[template](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/template.md) : テンプレート
 ### Structure
 構造体のライブラリです。
 

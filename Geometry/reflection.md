@@ -15,9 +15,23 @@ q = Projection(s, p);
 ## 実装
 [reflection.cpp](https://github.com/Oxojo/Oxojo-Library/blob/main/Geometry/reflection.cpp)
 ```cpp
-Point Projection(Segment S, Point p) {
-    Vector base = S.B - S.A;
-    ld r = dot(p - S.A, base) / base.norm();
-    return S.A + base * r;
+Point Reflection(Segment S, Point p) {
+    return p + (Projection(S, p) - p) * 2.0;
+}
+```
+
+## Verify
+AOJ_CGL_1_B
+```cpp
+void solve() {
+	Point p1, p2;
+    cin >> p1.x >> p1.y >> p2.x >> p2.y;
+    Line L = {p1, p2};
+    ll Q; cin >> Q;
+    while (Q--) {
+      Point p; cin >> p.x >> p.y;
+      Point x = Reflection(L, p);
+      cout << fixed << setprecision(12) << x.x << ' ' << x.y << endl;
+    }
 }
 ```

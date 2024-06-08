@@ -13,8 +13,9 @@ typedef long long ll;
 typedef long double ld;
 #define rep(i, n) for(ll i = 0; i < (n); i++)
 #define reps(i, l, r) for(ll i = (l); i < (r); i++)
+#define all(a) (a).begin(), (a).end()
 #define endl "\n";
-const ll INF = 1e16;
+const ll INF = 2e18;
 const ll mod1 = 1000000007;
 const ll mod2 = 998244353;
 ll dx[4] = {-1, 0, 1, 0};

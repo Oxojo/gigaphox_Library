@@ -1,4 +1,4 @@
-# ✅UnionFind
+# ✅重み付きUnionFind
 
 ## なにこれ
 WeightedUnionFind は、頂点の連結状態と重みを管理するつよそうなデータ構造。

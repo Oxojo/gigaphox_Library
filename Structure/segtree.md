@@ -114,3 +114,21 @@ SegTree<T, F> get_segtree(const vector<T> &N, const F &f, const T &ti) {
   return SegTree{N, f, ti};
 }
 ```
+
+## Verify
+AOJ_DSL_2_A
+```cpp
+void solve() {
+  ll N, Q; cin >> N >> Q;
+  auto seg = get_segtree(N, [](ll a, ll b){return min(a, b);}, (ll)(1ll<<31)-1);
+  while (Q--) {
+    ll t, x, y;  cin >> t >> x >> y;
+    if (t == 0) {
+      seg.update(x, y);
+    }
+    else {
+      cout << seg.prod(x, y + 1) << endl;
+    }
+  }
+}
+```

@@ -9,8 +9,12 @@ typedef long double ld;
 const ll INF = 1e16;
 const ll mod1 = 1000000007;
 const ll mod2 = 998244353;
-ll dx[4] = {-1, 0, 1, 0};
-ll dy[4] = {0, -1, 0, 1};
+const ll dx[4] = {-1, 0, 1, 0};
+const ll dy[4] = {0, -1, 0, 1};
+template <class T>
+bool chmax(T &a, const T &b) { return a < b ? a = b, true : false; }
+template <class T>
+bool chmin(T &a, const T &b) { return a > b ? a = b, true : false; }
 template <class T, size_t S>
 ostream &operator<<(ostream &_ostr, const array<T, S> &_v);
 template <class T>
@@ -143,3 +147,10 @@ template <class T>
 istream &operator>>(istream &_istr, deque<T> &_v) { return _irange(_istr, _v); }
 template <class T, class Y>
 istream &operator>>(istream &_istr, pair<T, Y> &_v) { return _istr >> _v.first >> _v.second; }
+struct init {
+  init() {
+    cin.tie(0)->sync_with_stdio(0);
+    ios::sync_with_stdio(false);
+    cout << fixed << setprecision(16);
+  }
+} init;

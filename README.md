@@ -65,4 +65,6 @@ ll dy[4] = {0, -1, 0, 1};
 構造体のライブラリです。
 
 - ✅[BIT](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/BIT.md) : BIT
+- ✅[Segment Tree](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/segtree.md)
 - ✅[UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.md) : UnionFind
+- ✅[WeightedUnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/weightedunionfind.md) : 重み付き UnionFind

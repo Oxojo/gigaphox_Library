@@ -116,7 +116,7 @@ SegTree<T, F> get_segtree(const vector<T> &N, const F &f, const T &ti) {
 ```
 
 ## Verify
-AOJ_DSL_2_A
+[AOJ_DSL_2_A](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/2/DSL_2_A)
 ```cpp
 void solve() {
   ll N, Q; cin >> N >> Q;

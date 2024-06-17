@@ -1,6 +1,6 @@
-template <typename T>
+template <typename T = ll>
 struct BIT {
-    int N;
+    ll N;
     vector<T>data;
 
 		BIT() = default;

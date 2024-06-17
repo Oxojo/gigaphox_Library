@@ -70,3 +70,4 @@ bool chmax(ll& a, ll b){ if(a < b) a = b; }
 - ✅[Segment Tree](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/segtree.md)
 - ✅[UnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/unionfind.md) : UnionFind
 - ✅[WeightedUnionFind](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/weightedunionfind.md) : 重み付き UnionFind
+- ✅[SparseTable](https://github.com/Oxojo/Oxojo-Library/blob/main/Structure/SparseTable.md) : Sparse Table

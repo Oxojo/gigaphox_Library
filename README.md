@@ -20,8 +20,8 @@ const ll mod1 = 1000000007;
 const ll mod2 = 998244353;
 ll dx[4] = {-1, 0, 1, 0};
 ll dy[4] = {0, -1, 0, 1};
-bool chmin(ll& a, ll b){ if(a > b) a = b; }
-bool chmax(ll& a, ll b){ if(a < b) a = b; }
+void chmin(ll& a, ll b){ if(a > b) a = b; }
+void chmax(ll& a, ll b){ if(a < b) a = b; }
 ```
 
 ## 目次

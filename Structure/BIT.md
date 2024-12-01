@@ -25,7 +25,7 @@ x : 更新に使う値 ($a_i := a_i + x$ と更新します)
 ```
 s = bit.prod(i);
 ```
-0-indexed の positioin $i$ に対し、 $\displaystyle \sum_{k=1}^{i-1} a_k$ を返します <br>
+0-indexed の position $i$ に対し、 $\displaystyle \sum_{k=1}^{i-1} a_k$ を返します <br>
 区間 [l, r) を引数にすることで、その範囲の sum を得ることができます
 
 ### 二分探索
@@ -99,7 +99,7 @@ void solve() {
 	while (Q--) {
 		ll t, x, y; cin >> t >> x >> y;
 		if (t == 0) bit.add(x, y);
-		else cout << bit.sum(y) - bit.sum(x - 1) << endl;
+		else cout << bit.prod(x, y) << endl;
 	}
 }
 ```

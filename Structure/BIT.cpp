@@ -15,7 +15,7 @@ struct BIT {
 			}
 		}
 		
-		void apply(ll k, T &x) {
+		void apply(ll k, T x) {
 			for (++k; k <= N; k += k & -k) data[k] += x;
 		}
 

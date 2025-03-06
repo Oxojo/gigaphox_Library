@@ -22,6 +22,11 @@ struct UnionFind {
         return true;
     }
 
+	ll size(ll v) {
+		v = root(v);
+		return siz[v];
+	}
+
     ll count() {
         return cnt;
     }
